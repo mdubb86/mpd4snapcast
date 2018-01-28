@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv /bin/bash
+echo 'Starting mpd'
+exec mpd --no-daemon --verbose
